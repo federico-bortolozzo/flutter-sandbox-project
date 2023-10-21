@@ -1,0 +1,50 @@
+name: flutter_sandbox_project
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_localizations:
+    sdk: flutter
+  provider: ^6.0.5
+  go_router: ^12.0.0
+  #firebase_core: ^2.19.0
+  #firebase_crashlytics: ^3.4.1
+  nested: ^1.0.0
+  dio: ^5.3.3
+  json_annotation: ^4.8.1
+  pretty_dio_logger: ^1.3.1
+  shared_preferences: ^2.2.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.6
+  flutter_lints: ^2.0.3
+
+flutter:
+  fonts:
+    - family: Helvetica
+      fonts:
+        - asset: lib/resources/fonts/helvetica_neue_regular.otf
+          weight: 400
+        - asset: lib/resources/fonts/helvetica_neue_bold.otf
+          weight: 600
+    - family: HelveticaMedium
+      fonts:
+        - asset: lib/resources/fonts/helvetica_neue_medium.otf
+          weight: 500
+
+  uses-material-design: true
+

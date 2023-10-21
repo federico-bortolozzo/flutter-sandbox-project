@@ -1,0 +1,4 @@
+enum BuildVariant {
+  dev,
+  prod,
+}
